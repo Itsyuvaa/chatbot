@@ -1,5 +1,6 @@
 import os
 import time
+import requests
 import streamlit as st
 from dotenv import load_dotenv, find_dotenv
 from langchain.embeddings import HuggingFaceEmbeddings
